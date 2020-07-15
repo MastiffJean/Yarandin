@@ -11,7 +11,7 @@
     @foreach($tasks as $task)
     <div class="col-md-6" style="margin-bottom: 15px">
       <div class="card">
-        <div class="card-header"><a href="../tasks/{{$task->id}}">{{ $task->title }}</a></div>
+        <div class="card-header"><a href="../../tasks/{{$task->id}}">{{ $task->title }}</a></div>
 
         <div class="card-body">
           <div>
